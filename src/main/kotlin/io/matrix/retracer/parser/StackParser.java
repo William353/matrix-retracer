@@ -9,12 +9,12 @@ public class StackParser {
     /**
      * Stack中，方法间的分割符
      */
-    private static final String STACK_SPLIT = " ";
+    private static final String STACK_SPLIT = "\n";
 
     /**
      * 解析后，每个方法的分隔符
      */
-    private static final String STACK_RETRACED_SPLIT = " ";
+    private static final String STACK_RETRACED_SPLIT = "\n";
 
     private static final String TEXT_PARSE_ERROR = "parse error";
 
